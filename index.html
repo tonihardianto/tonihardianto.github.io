@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta itemprop="description" Content="Project Portfolio Develope By Toni">
+    <meta itemprop="image" content="./img/siventori.jpg">
+
+    <meta property="og:url" content="https://tonihardianto.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Project Portfolio by Toni">
+    <meta property="og:description" content="I built all this with PHP">
+    <meta property="og:image" content="https://tonihardianto.github.io/img/siventori.jpg">
+
+    <title>Project Portfolio by Toni</title>
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./custom-bee.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!-- <button class="btn btn-danger" id="topbtn" title="Go to top">Back to Top</button> -->
+    <div class="container">
+        <div style="margin-top: 4rem;" class="navigation bg-dark sticky">
+            <ul>
+                <li class="list ">
+                    <a href="#" id="profile">
+                        <span class="icon">
+                            <!-- <ion-icon name="person-outline"></ion-icon> -->
+                            <i class="fa-solid fa-user-tie"></i>
+                        </span>
+                        <span class="text">Profile</span>
+                    </a>
+                </li>
+                <li class="list active">
+                    <a href="#" id="home">
+                        <span class="icon">
+                            <!-- <ion-icon name="home-outline"></ion-icon> -->
+                            <i class="fa-solid fa-house"></i>
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" id="sosial">
+                        <span class="icon">
+                            <!-- <ion-icon name="mail-unread-outline"></ion-icon> -->
+                            <i class="fa-regular fa-envelope"></i>
+                        </span>
+                        <span class="text">Contact</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation -->
+
+
+    <!-- partial:index.partial.html -->
+    <!-- Content-->
+    <div class="container-md">
+        <!-- <h2>I dont know what I do</h2> -->
+        <!-- <div class="card-columns"> -->
+        <!-- <div style="margin: 2.5rem 0" class="card text-white border-0">
+            <svg class="img-fluid card-radius" width="100%" height="110px" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                <rect width="100%" height="100%" fill="#434e58"></rect>
+            </svg>
+            <div class="card-img-overlay --card-img-overlay-secondary d-flex flex-column justify-content-between align-items-start p-5">
+                <div class="h3 mb-2"><a class="text-white text-decoration-none" href="javascript://">I do my best for these project</a></div>
+            </div>
+        </div> -->
+        <!-- </div> -->
+        <!-- <div style="margin: 2.5rem 0" class="card bg-dark border-0 mb-4">
+            <div class="card-body">
+                <div class="media align-items-center">
+                    <img class="card-avatar mr-4" width="70" height="70" src="img/avatar.jpg" alt="">
+                    <div class="media-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="mr-auto">
+                                <h5 class="card-title mb-1 text-light">Toni Hardianto</h5>
+                                <div class="text-muted">Web Programmer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- this is a project section -->
+    <div class="container-md" id="project">
+        <!-- Title-->
+        <div class="bee-row bee-row-1">
+            <div class="bee-row-content">
+                <div class="bee-col bee-col-1 bee-col-w12">
+                    <div class="bee-block bee-block-1 bee-paragraph">
+                        <p>My Project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Card project columns-->
+        <div class="card-columns">
+
+            <!-- Card-->
+            <div class="card card-overflow-content text-center border-0">
+                <div class="card-display-content">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="mr-auto text-left">
+                            <p class="card-title mb-2">Find out</p><br>
+                            <a href="https://github.com/tonihardianto/siventory" class="btn btn-outline-dark"><i class="fa fa-github"></i>
+                                Github</a>
+                            <a onclick="tryswal();" class="btn btn-outline-danger"><i class="fa fa-eye"></i>
+                                Demo</a>
+                            <a href="https://www.codepedia.my.id/2021/08/sistem-informasi-inventori-pngelolaan-data-barang.html" class="btn btn-outline-info"><i class="fa fa-info-circle"></i> Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <img class="card-img-top" src="img/siventori.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sistem Informasi Pengelolaan Data Barang</h5>
+                    <!-- <p class="card-text">Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proiden.</p> -->
+                </div>
+                <!-- <div class="card-footer text-center">
+            <a href="" class="btn btn-outline-dark text-center"><i class="fa fa-github"></i> Github</a>
+        </div> -->
+            </div>
+            <!-- Card-->
+            <div class="card card-overflow-content text-center border-0">
+                <div class="card-display-content">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="mr-auto text-left">
+                            <p class="card-title mb-2">Find out</p><br>
+                            <a href="https://github.com/tonihardianto/siapotek" class="btn btn-outline-dark"><i
+                                    class="fa fa-github"></i> Github</a>
+                            <a onclick="tryswal();" class="btn btn-outline-danger"><i class="fa fa-eye"></i>
+                                Demo</a>
+                            <a href="https://www.codepedia.my.id/2021/08/source-code-sistem-informasi-apotek.html" class="btn btn-outline-info"><i class="fa fa-info-circle"></i> Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <img class="card-img-top" src="img/apotek.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sistem Informasi Data Apotek</h5>
+                    <!-- <p class="card-text">Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proiden.</p> -->
+                </div>
+                <!-- <div class="card-footer text-center">
+            <a href="" class="btn btn-outline-dark text-center"><i class="fa fa-github"></i> Github</a>
+        </div> -->
+            </div>
+            <!-- Card-->
+            <div class="card card-overflow-content text-center border-0">
+                <div class="card-display-content">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="mr-auto text-left">
+                            <p class="card-title mb-2">Find out</p><br>
+                            <a href="https://github.com/tonihardianto/sibkk" class="btn btn-outline-dark"><i
+                                    class="fa fa-github"></i> Github</a>
+                            <a onclick="tryswal();" class="btn btn-outline-danger"><i class="fa fa-eye"></i>
+                                Demo</a>
+                            <a href="javascript:void();" class="btn btn-outline-info"><i class="fa fa-info-circle"></i> Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <img class="card-img-top" src="img/bursakerja.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sistem Informasi Bursa Kerja Khusus</h5>
+                    <!-- <p class="card-text">Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proiden.</p> -->
+                </div>
+                <!-- <div class="card-footer text-center">
+            <a href="" class="btn btn-outline-primary text-center"><i class="fa fa-github"></i> Github</a>
+        </div> -->
+            </div>
+            <!-- Card-->
+            <div class="card card-overflow-content text-center border-0">
+                <div class="card-display-content">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="mr-auto text-left">
+                            <p class="card-title mb-2">Find out</p><br>
+                            <a href="https://github.com/tonihardianto/sigeowisata" class="btn btn-outline-dark"><i
+                                    class="fa fa-github"></i> Github</a>
+                            <a onclick="tryswal();" class="btn btn-outline-danger"><i class="fa fa-eye"></i>
+                                Demo</a>
+                            <a href="javascript:void();" class="btn btn-outline-info"><i class="fa fa-info-circle"></i> Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <img class="card-img-top" src="img/geowisata.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sistem Informasi Geografis Obyek Wisata</h5>
+                    <!-- <p class="card-text">Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proiden.</p> -->
+
+                </div>
+                <!-- <div class="card-footer text-center">
+            <a href="" class="btn btn-outline-primary text-center"><i class="fa fa-github"></i> Github</a>
+        </div> -->
+            </div>
+            <!-- Card-->
+            <div class="card card-overflow-content text-center border-0">
+                <div class="card-display-content">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="mr-auto text-left">
+                            <p class="card-title mb-2">Find out</p><br>
+                            <a href="https://github.com/tonihardianto/siperpus" class="btn btn-outline-dark"><i
+                                    class="fa fa-github"></i> Github</a>
+                            <a onclick="tryswal();" class="btn btn-outline-danger"><i class="fa fa-eye"></i>
+                                Demo</a>
+                            <a href="https://www.codepedia.my.id/2020/02/source-code-aplikasi-perpustakaan.html" class="btn btn-outline-info"><i class="fa fa-info-circle"></i> Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <img class="card-img-top" src="img/perpus.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sistem Informasi Data Perpustakaan</h5>
+                    <!-- <p class="card-text">Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proiden.</p> -->
+                </div>
+                <!-- <div class="card-footer text-center">
+            <a href="" class="btn btn-outline-primary text-center"><i class="fa fa-github"></i> Github</a>
+        </div> -->
+            </div>
+            <!-- Card-->
+            <div class="card card-overflow-content text-center border-0">
+                <div class="card-display-content">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="mr-auto text-left">
+                            <p class="card-title mb-2">Find out</p><br>
+                            <a onclick="github();" class="btn btn-outline-dark"><i class="fa fa-github"></i> Github</a>
+                            <a onclick="tryswal();" class="btn btn-outline-danger"><i class="fa fa-eye"></i>
+                                Demo</a>
+                            <a href="https://www.codepedia.my.id/2020/02/source-code-aplikasi-pembayaran-spp.html" class="btn btn-outline-info"><i class="fa fa-info-circle"></i> Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <img class="card-img-top" src="img/spp.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sistem Informasi Pembayaran SPP</h5>
+                    <!-- <p class="card-text">Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proiden.</p> -->
+                </div>
+                <!-- <div class="card-footer text-center">
+            <a href="" class="btn btn-outline-primary"><i class="fa fa-github"></i> Github</a>
+        </div> -->
+            </div>
+            <!-- Card-->
+
+        </div>
+        <hr>
+    </div>
+    <!-- end of project section -->
+
+    <!-- this is a contact section -->
+    <div class="container-md" id="contact">
+        <!-- Title -->
+        <div class="bee-row bee-row-1">
+            <div class="bee-row-content">
+                <div class="bee-col bee-col-1 bee-col-w12">
+                    <div class="bee-block bee-block-1 bee-paragraph">
+                        <p>Follow Me</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Social column section -->
+        <div class="bee-row bee-row-2">
+            <div class="bee-row-content">
+                <div class="bee-col bee-col-1 bee-col-w2">
+                    <div class="bee-block bee-block-1 bee-spacer">
+                        <div class="spacer" style="height:1px;"></div>
+                    </div>
+                </div>
+                <div class="bee-col bee-col-2 bee-col-w8">
+                    <div class="bee-block bee-block-1 bee-paragraph">
+                        <p>Any question ? Just hit the button below for contacting me :D
+                        </p>
+                    </div>
+                </div>
+                <div class="bee-col bee-col-3 bee-col-w2">
+                    <div class="bee-block bee-block-1 bee-spacer">
+                        <div class="spacer" style="height:1px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bee-row bee-row-3">
+            <div class="bee-row-content">
+                <div class="bee-col bee-col-1 bee-col-w3">
+                    <div class="bee-block bee-block-1 bee-image"><a href="https://twitter.com/tonnyhrd"><img
+                                alt="Twitter" class="bee-center bee-fixedwidth" src="images/twit-10.png"
+                                style="max-width:236px;" /></a></div>
+                    <div class="bee-block bee-block-2 bee-spacer">
+                        <div class="spacer" style="height:1px;"></div>
+                    </div>
+                    <div class="bee-block bee-block-3 bee-paragraph">
+                        <p>Follow Me on Twitter</p>
+                    </div>
+                </div>
+                <div class="bee-col bee-col-2 bee-col-w3">
+                    <div class="bee-block bee-block-1 bee-image"><a
+                            href="https://www.facebook.com/tonny.hardyanto/"><img alt="Facebook"
+                                class="bee-center bee-autowidth" src="images/face-10.png"
+                                style="max-width:236px;" /></a></div>
+                    <div class="bee-block bee-block-2 bee-paragraph">
+                        <p>Follow Me on Facebook</p>
+                    </div>
+                </div>
+                <div class="bee-col bee-col-3 bee-col-w3">
+                    <div class="bee-block bee-block-1 bee-image"><a href="https://www.instagram.com/toni.hrdii/"><img
+                                alt="Instagram" class="bee-center bee-autowidth" src="images/insta-10.png"
+                                style="max-width:236px;" /></a></div>
+                    <div class="bee-block bee-block-2 bee-paragraph">
+                        <p>Follow Us Me Instagram</p>
+                    </div>
+                </div>
+                <div class="bee-col bee-col-4 bee-col-w3">
+                    <div class="bee-block bee-block-1 bee-image"><a
+                            href="https://www.linkedin.com/in/toni-hardianto-56092b128/"><img alt="Linkedin"
+                                class="bee-center bee-autowidth" src="images/linked-10.png"
+                                style="max-width:236px;" /></a></div>
+                    <div class="bee-block bee-block-2 bee-paragraph">
+                        <p>Follow Me on Linkedin</p>
+                    </div>
+                    <div class="bee-block bee-block-3 bee-spacer">
+                        <div class="spacer" style="height:1px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end social section -->
+        <hr>
+    </div>
+    <!-- end of  contact section -->
+
+    <!-- this is a profil section -->
+    <div class="container-md" id="profil">
+        <div class="bee-row bee-row-1">
+            <div class="bee-row-content">
+                <div class="bee-col bee-col-1 bee-col-w12">
+                    <div class="bee-block bee-block-1 bee-paragraph">
+                        <p>About Me</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="bee-row bee-row-1">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					
+					<div class="bee-block bee-block-3 bee-image"><img alt="Mother's Day"
+							class="bee-center bee-fixedwidth" src="img/profil.png" style="max-width:375px;" /></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-2">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-text">
+						<div class="bee-text-content"
+							style="line-height: 120%; font-size: 12px; font-family: inherit; color: #555555;">
+							<p style="font-size: 24px; line-height: 19px; text-align: center;"><span
+									style="font-size: 18px; line-height: 21px;"><strong style="">TONI
+										HARDIANTO</strong></span></p>
+						</div>
+					</div>
+
+                    <div class="bee-row bee-row-3">
+                        <div class="bee-row-content">
+                            <div class="bee-col bee-col-1 bee-col-w12">
+                                <div class="bee-block bee-block-1 bee-spacer">
+                                    <div class="spacer" style="height:0.5px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+					<!-- <div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #BBBBBB;width:100%;"></div>
+					</div> -->
+					<div class="bee-block bee-block-3 bee-text">
+						<div class="bee-text-content"
+							style="line-height: 120%; font-size: 12px; font-family: inherit; color: #555555;">
+							<p style="font-size: 14px; line-height: 16px; text-align: center;"><strong style="">Hi, I am
+									a person who likes programming. I've worked on several information systems
+									projects.</strong></p>
+							<p style="font-size: 14px; line-height: 16px; text-align: center;"><strong style="">I
+									usually use Codeigniter and MySQL to build web based applications.</strong></p>
+						</div>
+					</div>
+                    <br>
+                    <div class="bee-block bee-block-3 bee-text" style="text-align: center;">
+						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; font-family: inherit; color: #555555;">
+							<a style="text-align:center" href="./cv.html" target="_blank" class="btn btn-info"><i class="fa fa-file"></i> See My Resume</a>
+                            <br>
+                            <br>
+                            <p>OR</p>
+                            <br>
+                            <div>
+                                <a style="text-align:center" href="./TONI-HARDIANTO-CV.PDF" target="_blank" class="btn btn-primary"><i class="fa fa-download"></i> Download My Resume</a>
+
+                            </div>
+						</div>
+					</div>
+
+
+                    <hr>
+				</div>
+			</div>
+		</div>
+
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer">
+        <p class="yo-content">Made with <i class="fa fa-heart"></i> <a style="text-decoration: none;" class="yo"
+                href="https://github.com/tonihardianto"> Toni Hardianto</a></p>
+        <!-- <p>Contact me on the different platforms and social networks</p> -->
+        <div class="footer-social">
+            <a class="footer-social-link" href="https://github.com/tonihardianto" target="__blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z">
+                    </path>
+                </svg></a>
+            <a class="footer-social-link" href="https://twitter.com/tonnyhrd" target="__blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z">
+                    </path>
+                </svg></a>
+            <a class="footer-social-link" href="https://instagram.com/tonny.hrd" target="__blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z">
+                    </path>
+                </svg></a>
+        </div>
+    </footer>
+    <!-- partial -->
+
+    <script>
+        const list = document.querySelectorAll('.list');
+
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+            item.addEventListener('click', activeLink));
+    </script>
+    <script>
+        $(document).ready(function () {
+            //Pertama sembunyikan elemen class gambar
+            // $('#contentX').hide();
+            $('#contact').hide();
+            $('#profil').hide();
+
+
+            //Ketika elemen class tampil di klik maka elemen class gambar tampil
+            $('#sosial').click(function () {
+                $('#contact').show();
+                $('#project').hide();
+                $('#profil').hide();
+
+            });
+
+            //Ketiak tombol home di klik, akan tampil konten
+            $('#home').click(function () {
+                $('#project').show();
+                $('#contact').hide();
+                $('#profil').hide();
+
+            });
+
+            // Ketika tombol profil di klik, akan tampil konten
+            $('#profile').click(function () {
+                $('#project').hide();
+                $('#contact').hide();
+                $('#profil').show();
+
+            });
+
+        });
+
+        function tryswal(){
+            Swal.fire({
+            icon: 'info',
+            showCloseButton: true,
+            confirmButtonText: 'Ok, I understand 👍',
+            title: 'Sorry... 🥺',
+            text: 'Demo is not available at this time!',
+            footer: 'Please visit github for the source code! 🙃'
+            });
+        }
+
+        function github(){
+            Swal.fire({
+            icon: 'info',
+            showCloseButton: true,
+            confirmButtonText: 'Ok, I understand 👍',
+            title: 'Sorry... 🥺',
+            text: 'Source code is not available at this time!',
+            footer: 'I will upload the source code ASAP! 🙃'
+            });
+        }
+        
+    </script>
+    <script>
+        var btn = $('#topbtn');
+
+        $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+        });
+
+        btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+        });
+
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
